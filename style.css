@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: lightblue;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-container {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 50px;
+      width: 400px;
+    }
+
+    .login-container h2 {
+      text-align: center;
+      color: blue;
+
+    }
+
+    .login-form {
+      margin-top: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 8px;
+      color: #555;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .form-group button {
+      background-color: #4caf50;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .form-group button:hover {
+      background-color: #45a049;
+    }
+    nav {
+  		background-color: green;
+  		color: #fff;
+  		padding: 5px;
+  		width: auto;
+  		display: flex;
+  		justify-content: space-between;
+  		align-items: center;
+
+
+  	}
+
+
+  	nav h1 {
+  		margin:5px;
+  		border-radius:
+  	}
+
+  	.navbar-links {
+  		display: flex;
+  		list-style-type: none;
+  		margin: 0;
+  		padding: 0px ;
+  	}
+
+  	.navbar-links li {
+  		margin-right: 30px;
+  	}
+  	.nav img{
+  		margin-right: 10px;
+  	}
+
+  	.navbar-links a {
+  		text-decoration: none;
+  		color: #fff;
+  		font-size:20px;
+  		font-weight: bold;
+  	}
+  </style>
+</head>
+<nav>
+<img src="C:\Users\Anand\Desktop\cyr-logo.jpg" alt="Flowers in Chania" width="40" height="40">
+  <ul class="navbar-links">
+    <li><a href="home.html">Home</a></li>
+    <li><a href="profile.html">Profile</a></li>
+    <li><a href="personal.html">Personal Information</a></li>
+    <li><a href="projects.html">Project</a></li>
+    <li><a href="experience.html">Experience</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="search-container">
+    <input type="text" class="search-input" placeholder="Search">
+    <button type="button" class="search-button"><a href='#'>Search</a></button>
+  </div>
+  <div class="login-container">
+    <button class="login-button"><a href='login.html'>Logout</a></button>
+  </div>
+</nav>
+
+<body>
+
+  <div class="login-container">
+    <h2><b>Contact Form Credentials<b></h2>
+    <form class="login-form" action="home.html" method="post">
+      <div class="form-group">
+        <label for="username"><b>Name:</b></label>
+        <input type="text" id="username" name="name" placeholder="Enter name" required>
+      </div>
+      <div class="form-group">
+        <label for="password"><b>Email:</b></label>
+        <input type="email" id="email" name="email" placeholder="Enter Email" required>
+      </div>
+      <div class="form-group">
+        <label for="password"><b>Phone:</b></label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter Phone" required>
+      </div>
+      <div class="form-group">
+        <label for="password"><b>Remarks:</b></label>
+        <input type="text" id="remarks" name="remarks" placeholder="Enter Remarks" required>
+      </div>
+      <div class="form-group">
+        <button type="submit">Login</button>
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>
